@@ -220,7 +220,7 @@ class Game: #сам движок игры
         print("У тебя есть: бутер, тетрадь, ручка")
         
         
-        self.student.add_item(Item("Булочка", "Свежая булочка", 0))
+        self.student.add_item(Item("Бутер", "С колбасой", 0))
         self.student.add_item(Item("Тетрадь", "Для конспектов", 2))
         self.student.add_item(Item("Ручка", "Писать ответы", 1))
         
